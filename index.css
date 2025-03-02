@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Schoolbell&display=swap');
+body {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    caret-color: transparent;
+    font-size: 20px;
+    font-family: "Schoolbell", serif;
+}
+h1 {
+    font-family: "Caveat Brush", serif;
+    font-size: 55px;
+}
+input {
+    border-radius: 10px;
+    padding: 15px 5px;
+    font-size: 20px;
+    caret-color: black;
+    font-family:"Schoolbell", serif;
+}
+button {
+    border-radius: 10px;
+    
+    padding: 15px 5px;
+    width: 100px;
+}
+#incomplete-tasks {
+
+}
+
+#completed-tasks {
+
+}   
+ul {
+    padding-left: 0;
+}
+li {
+    border: solid black 1px;
+    list-style: none;
+    padding: 5px;
+    margin: 4px;    
+    border-radius: 10px;
+    padding: 15px 5px;
+    font-weight: 400;
+}
+
+#incomplete-tasks li {
+    background-color:#2D3047;
+    color: #D5DFE5;
+}
+#completed-tasks li {
+    text-decoration: line-through;
+    background-color: #567568;
+    color: #ffffff;
+}
+li:hover {
+    cursor: pointer;
+}
